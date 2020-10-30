@@ -1,3 +1,18 @@
+## Features
+ - Multiple directories and path glob pattern support for pipeline caching (#2834)
+ - Extract a new zip every time for Tasks (#3065)
+ - Added retry for workfold unmap (#3114)
+ - Turn on Fetch By Commit For GitHub (#3127)
+ - Add retries on PA downloads (#3142)
+
+## Bugs
+ - Revert "Turn on Fetch By Commit For GitHub (#3092)" (#3115)
+ - Fix node existence check (#3122)
+
+## Misc
+ - Switch to new HTTP handler by default (#3117)
+ - Update mingit to latest git version 2.28.0 (#3125)
+
 
 ## Agent Downloads
 
